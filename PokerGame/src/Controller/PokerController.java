@@ -41,7 +41,7 @@ public class PokerController {
 		this.view = view;
 		
 		view.getShuffleButton().setOnAction( e -> shuffle() );
-		view.getDealButton().setOnAction( e -> deal() );
+		view.getDealButton().setOnAction( e -> deal() ); // handler
 		
 		view.getHelp().setOnAction(e -> popUpHelp());
 		view.setTwoPlayers().setOnAction(e -> {
